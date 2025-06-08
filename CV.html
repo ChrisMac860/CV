@@ -23,9 +23,12 @@ Styled like Google Forms
     body {
       font-family: 'Roboto', Arial, sans-serif;
       background: var(--main-bg);
-      margin: 0;
       padding: 0;
       color: var(--text);
+    }
+    .main {
+        max-width: 720px;
+        margin: 40px auto;
     }
     .header {
       background: linear-gradient(90deg, var(--header-bg) 60%, #512da8 100%);
@@ -34,6 +37,7 @@ Styled like Google Forms
       text-align: center;
       box-shadow: var(--shadow);
       border-radius: 0 0 24px 24px;
+      margin: 40px auto;
     }
     .header h1 {
       font-size: 2.5rem;
@@ -140,147 +144,149 @@ Styled like Google Forms
   </style>
 </head>
 <body>
-  <div class="header">
-    <h1>Christopher Mackle</h1>
-    <div class="subtitle">Computer Science Student | Queen's University Belfast</div>
-    <span>Armagh, Northern Ireland</span>
-  </div>
-  <div class="container">
-    <div class="info-row">
-      <span>Mobile: +44 7760 379620</span>
-      <span>Email: <a href="mailto:cmackle17@qub.ac.uk">cmackle17@qub.ac.uk</a></span>
-      <span>Github: <a href="https://github.com/" target="_blank">github.com/yourusername</a></span>
-    </div>
+    <div class="main">
+        <div class="header">
+            <h1>Christopher Mackle</h1>
+            <div class="subtitle">Computer Science Student | Queen's University Belfast</div>
+            <span>Armagh, Northern Ireland</span>
+        </div>
+        <div class="container">
+            <div class="info-row">
+            <span>Mobile: +44 7760 379620</span>
+            <span>Email: <a href="mailto:cmackle17@qub.ac.uk">cmackle17@qub.ac.uk</a></span>
+            <span>Github: <a href="https://github.com/" target="_blank">github.com/yourusername</a></span>
+            </div>
 
-    <h2>Personal Profile</h2>
-    <div class="section">
-      Hardworking and creative Computer Science student with a passion for building reliable, user-friendly systems and delivering innovative solutions. Strong communicator and team leader with hands-on project experience and technical skills spanning software, hardware, and data.
-    </div>
+            <h2>Personal Profile</h2>
+            <div class="section">
+            Hardworking and creative Computer Science student with a passion for building reliable, user-friendly systems and delivering innovative solutions. Strong communicator and team leader with hands-on project experience and technical skills spanning software, hardware, and data.
+            </div>
 
-    <h2>Education</h2>
-    <div class="section">
-      <div class="exp-block">
-        <span class="exp-title">MEng Computer Science (with Year in Industry)</span><br>
-        Queen's University Belfast, 2021 – Expected 2026<br>
-        <span class="subpoints">Key modules: Software Engineering, Data Structures & Algorithms, AI, Databases, Web Technologies</span><br>
-        <span class="subpoints">Projects: SQL DBMS, Java e-commerce, Vending machine (SCRUM), Neural Network (heart disease)</span>
-      </div>
-      <div class="exp-block">
-        <span class="exp-title">St Patrick’s Academy Dungannon</span><br>
-        A-Levels: Maths (A), Software Systems Dev (A), Technology (B) | 2014 – 2021
-      </div>
-    </div>
+            <h2>Education</h2>
+            <div class="section">
+            <div class="exp-block">
+                <span class="exp-title">MEng Computer Science (with Year in Industry)</span><br>
+                Queen's University Belfast, 2021 – Expected 2026<br>
+                <span class="subpoints">Key modules: Software Engineering, Data Structures & Algorithms, AI, Databases, Web Technologies</span><br>
+                <span class="subpoints">Projects: SQL DBMS, Java e-commerce, Vending machine (SCRUM), Neural Network (heart disease)</span>
+            </div>
+            <div class="exp-block">
+                <span class="exp-title">St Patrick’s Academy Dungannon</span><br>
+                A-Levels: Maths (A), Software Systems Dev (A), Technology (B) | 2014 – 2021
+            </div>
+            </div>
 
-    <h2>Technical Skills</h2>
-    <div class="section">
-      <ul class="skills-list">
-        <li>Python</li>
-        <li>C#</li>
-        <li>Java</li>
-        <li>SQL</li>
-        <li>C++</li>
-        <li>R</li>
-        <li>HTML/CSS</li>
-        <li>Git</li>
-        <li>APIs (Google TTS)</li>
-        <li>Visual Studio</li>
-        <li>SolidWorks</li>
-        <li>Windows</li>
-        <li>Hardware (CCTV, Networking)</li>
-      </ul>
-    </div>
+            <h2>Technical Skills</h2>
+            <div class="section">
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>C#</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>C++</li>
+                <li>R</li>
+                <li>HTML/CSS</li>
+                <li>Git</li>
+                <li>APIs (Google TTS)</li>
+                <li>Visual Studio</li>
+                <li>SolidWorks</li>
+                <li>Windows</li>
+                <li>Hardware (CCTV, Networking)</li>
+            </ul>
+            </div>
 
-    <h2>Professional Experience</h2>
-    <div class="section">
-      <div class="exp-block">
-        <span class="exp-title">R&D Intern (Software Engineer), Stryker — Belfast</span>
-        <span class="exp-date">Jun 2023 – Sep 2024</span><br>
-        <ul>
-          <li>Developed and tested medical device software (Python, C#) for defibrillators</li>
-          <li>Led text-to-speech project (Google API) to deployment</li>
-          <li>Built tools for data analysis and automation</li>
-        </ul>
-      </div>
-      <div class="exp-block">
-        <span class="exp-title">Technical Support Specialist, Mitie Security — Belfast</span>
-        <span class="exp-date">Jan 2022 – Jun 2023</span><br>
-        <ul>
-          <li>Provided remote support for camera systems, raising client satisfaction</li>
-          <li>Monitored security feeds; coordinated with emergency services</li>
-        </ul>
-      </div>
-      <div class="exp-block">
-        <span class="exp-title">Bar Staff, Seagoe Hotel & Bennett’s Bar — Armagh</span>
-        <span class="exp-date">Jan 2020 – Dec 2021</span><br>
-        <ul><li>Delivered customer service at busy events</li></ul>
-      </div>
-      <div class="exp-block">
-        <span class="exp-title">Customer Assistant, Tesco — Portadown</span>
-        <span class="exp-date">Oct 2019 – Dec 2021</span><br>
-        <ul><li>Handled customer inquiries and fast-paced service</li></ul>
-      </div>
-      <div class="exp-block">
-        <span class="exp-title">Software Engineer Intern, Openwave Mobility</span>
-        <span class="exp-date">Aug 2019</span><br>
-        <ul><li>Scripted JSON data formatting in Python</li></ul>
-      </div>
-      <div class="exp-block">
-        <span class="exp-title">Engineering Intern, Catagen</span>
-        <span class="exp-date">2019</span><br>
-        <ul><li>Requirements gathering & diagnostics for industrial machinery software</li></ul>
-      </div>
-    </div>
+            <h2>Professional Experience</h2>
+            <div class="section">
+            <div class="exp-block">
+                <span class="exp-title">R&D Intern (Software Engineer), Stryker — Belfast</span>
+                <span class="exp-date">Jun 2023 – Sep 2024</span><br>
+                <ul>
+                <li>Developed and tested medical device software (Python, C#) for defibrillators</li>
+                <li>Led text-to-speech project (Google API) to deployment</li>
+                <li>Built tools for data analysis and automation</li>
+                </ul>
+            </div>
+            <div class="exp-block">
+                <span class="exp-title">Technical Support Specialist, Mitie Security — Belfast</span>
+                <span class="exp-date">Jan 2022 – Jun 2023</span><br>
+                <ul>
+                <li>Provided remote support for camera systems, raising client satisfaction</li>
+                <li>Monitored security feeds; coordinated with emergency services</li>
+                </ul>
+            </div>
+            <div class="exp-block">
+                <span class="exp-title">Bar Staff, Seagoe Hotel & Bennett’s Bar — Armagh</span>
+                <span class="exp-date">Jan 2020 – Dec 2021</span><br>
+                <ul><li>Delivered customer service at busy events</li></ul>
+            </div>
+            <div class="exp-block">
+                <span class="exp-title">Customer Assistant, Tesco — Portadown</span>
+                <span class="exp-date">Oct 2019 – Dec 2021</span><br>
+                <ul><li>Handled customer inquiries and fast-paced service</li></ul>
+            </div>
+            <div class="exp-block">
+                <span class="exp-title">Software Engineer Intern, Openwave Mobility</span>
+                <span class="exp-date">Aug 2019</span><br>
+                <ul><li>Scripted JSON data formatting in Python</li></ul>
+            </div>
+            <div class="exp-block">
+                <span class="exp-title">Engineering Intern, Catagen</span>
+                <span class="exp-date">2019</span><br>
+                <ul><li>Requirements gathering & diagnostics for industrial machinery software</li></ul>
+            </div>
+            </div>
 
-    <h2>Projects</h2>
-    <div class="section">
-      <div class="project-block">
-        <span class="project-title">Artificial Neural Network – Heart Disease Classifier</span>
-        <span class="project-date">2023</span>
-        <ul><li>Built ANN from scratch for classification and model optimisation</li></ul>
-      </div>
-      <div class="project-block">
-        <span class="project-title">Vending Machine Controller (SCRUM)</span>
-        <span class="project-date">2022</span>
-        <ul><li>Led agile team in controller design and development</li></ul>
-      </div>
-      <div class="project-block">
-        <span class="project-title">SQL DBMS & Java E-commerce Platform</span>
-        <span class="project-date">2022</span>
-        <ul><li>Built and optimised academic systems in team settings</li></ul>
-      </div>
-      <div class="project-block">
-        <span class="project-title">Trailer Restoration</span>
-        <span class="project-date">2021</span>
-        <ul><li>Welded, painted, and restored trailer with practical skills</li></ul>
-      </div>
-    </div>
+            <h2>Projects</h2>
+            <div class="section">
+            <div class="project-block">
+                <span class="project-title">Artificial Neural Network – Heart Disease Classifier</span>
+                <span class="project-date">2023</span>
+                <ul><li>Built ANN from scratch for classification and model optimisation</li></ul>
+            </div>
+            <div class="project-block">
+                <span class="project-title">Vending Machine Controller (SCRUM)</span>
+                <span class="project-date">2022</span>
+                <ul><li>Led agile team in controller design and development</li></ul>
+            </div>
+            <div class="project-block">
+                <span class="project-title">SQL DBMS & Java E-commerce Platform</span>
+                <span class="project-date">2022</span>
+                <ul><li>Built and optimised academic systems in team settings</li></ul>
+            </div>
+            <div class="project-block">
+                <span class="project-title">Trailer Restoration</span>
+                <span class="project-date">2021</span>
+                <ul><li>Welded, painted, and restored trailer with practical skills</li></ul>
+            </div>
+            </div>
 
-    <h2>Skills & Attributes</h2>
-    <div class="section">
-      <ul class="skills-list">
-        <li>Problem-solving</li>
-        <li>Teamwork & Leadership</li>
-        <li>Communication</li>
-        <li>Project & Time Management</li>
-      </ul>
-    </div>
+            <h2>Skills & Attributes</h2>
+            <div class="section">
+            <ul class="skills-list">
+                <li>Problem-solving</li>
+                <li>Teamwork & Leadership</li>
+                <li>Communication</li>
+                <li>Project & Time Management</li>
+            </ul>
+            </div>
 
-    <h2>Interests & Hobbies</h2>
-    <div class="section">
-      <ul class="hobby-list">
-        <li>AI & Machine Learning</li>
-        <li>Gaelic football & Kickboxing</li>
-        <li>Guitar</li>
-        <li>Cars & Technology</li>
-      </ul>
-    </div>
+            <h2>Interests & Hobbies</h2>
+            <div class="section">
+            <ul class="hobby-list">
+                <li>AI & Machine Learning</li>
+                <li>Gaelic football & Kickboxing</li>
+                <li>Guitar</li>
+                <li>Cars & Technology</li>
+            </ul>
+            </div>
 
-    <h2>References</h2>
-    <div class="section">
-      Available on request.<br>
-      (Example: Mrs Strain – Former Teacher, Mr Brolly – Stryker Manager)
+            <h2>References</h2>
+            <div class="section">
+            Available on request.<br>
+            (Example: Mrs Strain – Former Teacher, Mr Brolly – Stryker Manager)
+            </div>
+        </div>
     </div>
-  </div>
 </body>
 </html>
 
